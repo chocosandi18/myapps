@@ -1,0 +1,22 @@
+{
+  "name": "pos-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "POS Mobile — standalone offline point-of-sale app (Capacitor)",
+  "scripts": {
+    "add:android": "cap add android",
+    "sync": "cap sync android",
+    "open": "cap open android",
+    "apk": "cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/share": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0"
+  }
+}
